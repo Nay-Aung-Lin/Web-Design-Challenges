@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.contaienr{
+    display: flex;
+    width: 90vw;
+}
+
+.photo{
+    width: 7vw;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    color: #fff;
+    position: relative;
+    transition: all .5s ease-in;
+    cursor: pointer;
+    margin: 13px;
+}
+h3{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    opacity: 0;
+    text-shadow: 5px 3px 6px #000;
+}
+
+.active{
+    width: 40vw;
+
+}
+.active h3{
+    opacity: 1;
+
+}
+
+.photo1{
+    background-image: url("img/childhood.jpg");
+    
+}
+
+.photo2{
+    background-image: url("img/metafterpirate.jpg");
+    
+}
+
+.photo3{
+    background-image: url("img/inbattle.jpg");
+    
+}
+
+.photo4{
+    background-image: url("img/acedead1.jpeg");
+    
+}
+.photo5{
+    background-image: url("img/final1.jpg");
+    
+}
+
+.photo6{
+    background-image: url("img/deadoface.jpg");
+    
+}
